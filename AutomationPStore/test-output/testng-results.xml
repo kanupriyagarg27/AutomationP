@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="18279" started-at="2020-09-09T21:24:17 EDT" finished-at="2020-09-09T21:24:35 EDT">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="18279" started-at="2020-09-09T21:24:17 EDT" finished-at="2020-09-09T21:24:35 EDT">
+      <class name="automationPTests.Login_MyStoreTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:automationPTests.Login_MyStoreTest@184f6be2]" name="setup" is-config="true" duration-ms="10118" started-at="2020-09-09T21:24:17 EDT" finished-at="2020-09-09T21:24:27 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="login()[pri:0, instance:automationPTests.Login_MyStoreTest@184f6be2]" name="login" duration-ms="3432" started-at="2020-09-09T21:24:27 EDT" finished-at="2020-09-09T21:24:30 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="teardown(org.testng.ITestResult)[pri:0, instance:automationPTests.Login_MyStoreTest@184f6be2]" name="teardown" is-config="true" duration-ms="4666" started-at="2020-09-09T21:24:30 EDT" finished-at="2020-09-09T21:24:35 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=login status=SUCCESS method=Login_MyStoreTest.login()[pri:0, instance:automationPTests.Login_MyStoreTest@184f6be2] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- automationPTests.Login_MyStoreTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
